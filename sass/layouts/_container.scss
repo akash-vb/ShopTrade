@@ -1,0 +1,9 @@
+.container{
+      display: grid;
+      max-width: calc(100vw - 20rem);
+      margin-right: auto ;
+      margin-left: auto ;
+      grid-template-columns: repeat(12, 1fr);
+      column-gap: 1.6rem;
+      row-gap: 16rem;
+}

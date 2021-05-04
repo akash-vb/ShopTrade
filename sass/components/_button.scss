@@ -1,0 +1,60 @@
+.main-button {
+    display: flex;
+    grid-column: 2/3;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    align-items: center;
+    outline: none;
+
+    
+    img {
+        width: 80%;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    span{
+        transition: all 0.4s cubic-bezier(.23,.85,.61,.92);
+    }
+
+    &:hover span {
+        transform: translateX(0.6rem);
+    }
+
+    &--small {
+        font-size: 1.6rem;
+
+        img {
+            width: 60%;
+        }
+    }
+}
+
+.play-button{
+      width: 8rem;
+      height: 8rem;
+}
+
+.arrow {
+      display: inline-block;
+      width: 2.2rem;
+      height: 2.2rem;
+      margin-left: 1rem;
+      transition: all 0.2s ease-out;
+
+      img {
+            width: 70%;
+            object-fit: cover;
+        }
+
+      &--small{
+          img {
+                width: 60%;
+                object-fit: cover;
+            }
+      }
+  }

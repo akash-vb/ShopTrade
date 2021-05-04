@@ -1,0 +1,32 @@
+.project-card {
+    .project-image {
+        position: relative;
+
+        .project-thumbnail {
+            width: 100%;
+            display: block;
+        }
+
+        .project-shopigy-logo {
+            position: absolute;
+            bottom: 2rem;
+            left: 2rem;
+            width: 30%;
+            border-radius: 3rem;
+        }
+    }
+
+    .project-title {
+      display: flex;
+      justify-content: space-between;
+      margin: 2rem 0 .8rem;
+
+      .arrow{
+            transition: all 0.4s cubic-bezier(.23,.85,.61,.92);
+      }
+
+      &:hover .arrow{
+            transform: translateX(-1rem);
+      }
+  }
+}
